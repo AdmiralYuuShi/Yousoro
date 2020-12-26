@@ -1,0 +1,64 @@
+name: yousoro
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.9.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Retrieve Device Info
+  device_info: ^0.4.2+2
+
+  # Bloc
+  flutter_bloc: ^6.0.1
+  bloc: ^6.0.1
+
+  # Dart data class
+  json_serializable: ^3.3.0
+  freezed_annotation: ^0.11.0
+
+  # Dependency Injection
+  get_it: ^4.0.4
+  injectable: ^1.0.2
+
+  # Value Equality
+  equatable: ^1.2.3
+
+  # Functional programming helper
+  dartz: ^0.9.1
+
+  # Network
+  dio: ^3.0.9
+  data_connection_checker: ^0.3.4
+
+  # Firebase
+  firebase_core: "0.5.0+1"
+  firebase_analytics: "6.0.2"
+  cloud_firestore: "0.14.1+3"
+  firebase_auth: "0.18.1+2"
+  firebase:
+  firebase_dynamic_links:
+
+  # Misc
+  shimmer: ^1.1.1
+  cached_network_image: ^2.2.0+1
+  fluro:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code generators
+  freezed: ^0.11.4
+  injectable_generator: ^1.0.2
+  build_runner: ^1.10.1
+  gen_lang: ^0.1.3
+
+flutter:
+  uses-material-design: true
